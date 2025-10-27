@@ -88,7 +88,6 @@ section {
     float: left;
     width: 100%;
     position: relative;
-    background-color: #f1f3f8;
 }
 
 .section,
@@ -2005,13 +2004,11 @@ footer .widget {
 
 /*Table 2 #table2*/
 
-.kf_table2 /*Tabela Geral*/ {
+.kf_table2 {
     display: table;
     width: 100%;
     margin: 0 0 30px;
-    border: 1px solid #d8d7d7;
-    border-radius: 8px;
-    background-color: white;
+    border: 1px solid #d7d8d8;
 }
 
 .kf_table2 li {
@@ -2020,12 +2017,12 @@ footer .widget {
 }
 
 .kf_table2 li.table_head {
-    color: #455c67;
-    font-size: 12px;
+    color: #333;
+    font-size: 14px;
     text-align: left;
-    font-weight: normal;
+    font-weight: bold;
     line-height: normal;
-    text-transform: normal;
+    text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -2038,7 +2035,7 @@ footer .widget {
     display: table-cell;
     vertical-align: middle;
     padding: 14px;
-    border-bottom: 1px solid #d8d7d7;
+    border-bottom: 1px solid #d7d8d8;
 }
 
 .kf_table2 li:hover div {
@@ -2108,10 +2105,9 @@ footer .widget {
     text-transform: capitalize;
 }
 
-
-.kf_table2 .versus div p a /*Nomes das Equipas*/{
-    
-    color: #1a313c;
+.kf_table2 .versus div p a {
+    margin: -5px 0 1px;
+    color: #333;
     display: block;
     font-weight: bold;
 }
@@ -4376,76 +4372,3 @@ footer .widget {
     background-color: #fff;
     color: #000;
 }
-
-
-
-
-.versus {
-  display: flex;
-  align-items: center;  /* centraliza verticalmente o conteúdo */
-  justify-content: center; /* opcional: centraliza horizontalmente */
-  height: 60px; /* altura da linha da tabela ou do item */
-}
-
-.versus > div {
-  display: flex;
-  align-items: center;  /* centraliza verticalmente dentro do div */
-}
-
-.versus img {
-  display: block;
-  margin-right: 10px;  /* espaço entre logo e nome */
-}
-
-.versus p {
-  margin: 0;           /* remove margens padrão do <p> */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.team-form {
-  display: flex;
-  gap: 5px; /* espaço entre os círculos */
-  justify-content: center; /* centraliza horizontalmente */
-  align-items: center;
-}
-
-.team-form .form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 24px;      /* tamanho do círculo */
-  height: 24px;     /* tamanho do círculo */
-  border-radius: 50%; /* deixa redondo */
-  font-size: 14px;  
-  color: #fff;      /* cor da letra */
-  font-weight: bold;
-}
-
-
-.team-form .win {
-  background-color: #4CAF50; /* verde */
-}
-
-.team-form .draw {
-  background-color: #FFC107; /* amarelo */
-}
-
-.team-form .loss {
-  background-color: #F44336; /* vermelho */
-}
-
-
